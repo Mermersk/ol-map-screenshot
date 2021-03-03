@@ -126,7 +126,7 @@ class MapImageRenderer {
             units: 'metric',
             bar: isBar,
             steps: 4,
-            text: true,
+            text: false,
             minWidth: 140,
             target: target
         });
