@@ -80,8 +80,8 @@ class MapImageRenderer {
         ctx.fillStyle = "#000000";
         ctx.lineWidth = 5;
         ctx.font = font;
-        //ctx.strokeText(scaleLineValue, xfourth + 5, yzero + 20);
-        //ctx.fillText(scaleLineValue, xfourth + 5, yzero + 20);
+        ctx.strokeText(scaleLineValue, xfourth + 5, yzero + 20);
+        ctx.fillText(scaleLineValue, xfourth + 5, yzero + 20);
     }
 
     drawScaleBar(ctx, line, color, movePoint1, movePoint2, linePoint1, linePoint2) {
